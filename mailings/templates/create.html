@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% block title %}Создать рассылку{% endblock %}
+
+{% block content %}
+<h1>Создать новую рассылку</h1>
+
+<form method="post" novalidate>
+    {% csrf_token %}
+
+    <!-- Поля формы -->
+    <div class="form-group">
+        <label for="{{ form.scheduled_start.id_for_label }}">
+            {{ form.scheduled_start.label }}
+        </label>
+        <input type="datetime-local"
+               id="{{ form.scheduled_start.id_for_label }}"
+               name="{{ form.scheduled_start.name }}"
+               value="{{ form.scheduled_start.value|default_if_none:'' }}"
+               class="form-control" required>
+    </div>
+
+    <div class="form-group">
+        <label for="{{ form.scheduled_end.id_for_label }}">
+            {{ form.scheduled_end.label }}
+        </label>
+        <input type="datetime-local"
+               id="{{ form.scheduled_end.id_for_label }}"
+               name="{{ form.scheduled_end.name }}"
+               value="{{ form.scheduled_end.value|default_if_none:'' }}"
+               class="form-control" required>
+    </div>
+
+    <div class="form-group">
+        <label for="{{ form.subject.id_for_label }}">
+            {{ form.subject.label }}
+        </label>
+        <input type="text"
+               id="{{ form.subject.id_for_label }}"
+               name="{{ form.subject.name }}"
+               value="{{ form.subject.value }}"
+               class="form-control" required>
+    </div>
+
+    <div class="form-group">
+        <label for="{{ form.body.id_for_label }}">
+            {{ form.body.label }}
+        </label>
+        <textarea id="{{ form.body.id_for_label }}"
+                  name="{{ form.body.name }}"
+                  rows="5"
+                  class="form-control" required>{{ form.body.value }}</textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="{{ form.recipients.id_for_label }}">
+            {{ form.recipients.label }}
+        </label>
+        <textarea id="{{ form.recipients.id_for_label }}"
+                  name="{{ form.recipients.name }}"
+                  rows="3"
+                  class="form-control" required>{{ form.recipients.value }}</textarea>
+        <small class="form-text text-muted">Введите адреса электронной почты, каждый на новой строке или через запятую.</small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить рассылку</button>
+    <a href="{% url 'newsletter_list' %}" class="btn btn-secondary">Отмена</a>
+</form>
+
+
+
+{% if form.errors %}
+    <div class="alert alert-danger mt-3">
+        <strong>Ошибки в форме:</strong>
+        <ul>
+            {% for field in form %}
+                {% for error in field.errors %}
+                    <li>{{ field.label }}: {{ error }}</li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Статистика отправок{% endblock %}
+
+{% block content %}
+<h2>Статистика отправок</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Статус</th>
+            <th>Количество</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Успешные отправки</td>
+            <td>{{ successful_count }}</td>
+        </tr>
+        <tr>
+            <td>Неуспешные отправки</td>
+            <td>{{ failed_count }}</td>
+        </tr>
+        <tr>
+            <td>Всего попыток</td>
+            <td>{{ total_attempts }}</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}

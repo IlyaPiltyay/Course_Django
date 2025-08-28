@@ -1,0 +1,29 @@
+[
+{
+    "model": "mailings.subscriber",
+    "pk": 1,
+    "fields": {
+        "email": "example@example.com",
+        "full_name": "",
+        "comment": null
+    }
+},
+{
+    "model": "mailings.subscriber",
+    "pk": 2,
+    "fields": {
+        "email": "Petlyay@yandex.ru",
+        "full_name": "",
+        "comment": null
+    }
+},
+{
+    "model": "mailings.subscriber",
+    "pk": 3,
+    "fields": {
+        "email": "ilya.piltyay@mail.ru",
+        "full_name": "",
+        "comment": null
+    }
+}
+]

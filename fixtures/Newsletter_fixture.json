@@ -1,0 +1,62 @@
+[
+{
+    "model": "mailings.newsletter",
+    "pk": 29,
+    "fields": {
+        "scheduled_start": "2025-08-27T13:29:00Z",
+        "scheduled_end": "2025-08-27T13:29:00Z",
+        "status": "created",
+        "message": 36,
+        "is_active": true,
+        "owner": 1,
+        "subscribers": [
+            2
+        ]
+    }
+},
+{
+    "model": "mailings.newsletter",
+    "pk": 32,
+    "fields": {
+        "scheduled_start": "2025-08-28T17:53:00Z",
+        "scheduled_end": "2025-08-28T17:53:00Z",
+        "status": "created",
+        "message": 40,
+        "is_active": true,
+        "owner": 1,
+        "subscribers": [
+            2
+        ]
+    }
+},
+{
+    "model": "mailings.newsletter",
+    "pk": 33,
+    "fields": {
+        "scheduled_start": "2025-08-28T18:07:00Z",
+        "scheduled_end": "2025-08-31T18:07:00Z",
+        "status": "created",
+        "message": 41,
+        "is_active": true,
+        "owner": 1,
+        "subscribers": [
+            2
+        ]
+    }
+},
+{
+    "model": "mailings.newsletter",
+    "pk": 34,
+    "fields": {
+        "scheduled_start": "2025-08-28T18:09:00Z",
+        "scheduled_end": "2025-08-30T18:09:00Z",
+        "status": "created",
+        "message": 42,
+        "is_active": true,
+        "owner": 1,
+        "subscribers": [
+            2
+        ]
+    }
+}
+]

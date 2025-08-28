@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Редактировать рассылку{% endblock %}
+
+{% block content %}
+<h1>Редактировать рассылку: {{ object.subject }}</h1>
+
+{% if object.status == 'created' %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- Верстка формы -->
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+    </form>
+{% else %}
+    <p>Рассылка находится в статусе "{{ object.get_status_display }}" и не может быть изменена.</p>
+{% endif %}
+
+{% if form.errors %}
+    <div class="alert alert-danger">
+        <ul>
+        {% for field in form %}
+            {% for error in field.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        {% endfor %}
+        {% for error in form.non_field_errors %}
+            <li>{{ error }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+{% endblock %}

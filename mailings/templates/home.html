@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-4">Добро пожаловать в систему рассылок!</h1>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary mb-3">
+                <h2>Общее количество рассылок: {{ total_newsletters }}</h2>
+                <div class="card-body">
+                    <h5 class="card-title">{{ total_newsletters }}</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-white bg-success mb-3">
+                <h2>Активные рассылки: {{ active_newsletters }}</h2>
+                <div class="card-body">
+                    <h5 class="card-title">{{ active_newsletters }}</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-white bg-info mb-3">
+                <div class="card-header">Уникальные получатели</div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ unique_recipients }}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+{% endblock %}

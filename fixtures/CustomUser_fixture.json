@@ -1,0 +1,164 @@
+[
+{
+    "model": "users.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$bcecbqfPUYwyV3W1rd0uyG$TwECI03+KtiWgl7QQj9NsY33stbrXfeI6IylBb5l9Lw=",
+        "last_login": "2025-08-28T13:46:55.106Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-08-15T16:43:48.989Z",
+        "email": "ilya.piltya@mail.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 2,
+    "fields": {
+        "password": "wwww1111",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2025-08-24T21:19:05.765Z",
+        "email": "q@mail.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$ZngAhgsLMMRgYPkUSpFFT2$3ApPJchw0z5DXnhv6LURmjz1D5IaeYoRh1H48qCqr0A=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-25T15:19:30.651Z",
+        "email": "ilya.piltyay@gmail.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$LAoIun5OfmraLMIQzXqaMM$hq1dxWIhyFNB8qjpw+NiavP0z9b4jTjA89uxjliHtnQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-25T15:28:16.760Z",
+        "email": "ilya.piltyay@mail.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$fObX97i23NRQWUKAbSLzH5$OGGyimH7bkF1chsPo1rBU28bUc949YyYM1KyacwL0j0=",
+        "last_login": "2025-08-28T13:44:54.285Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2025-08-25T15:34:12.723Z",
+        "email": "Petlyay@yandex.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$xW0P3uvvRK9pXD5EIQOpHF$qiT27YdWihOfCQpmxmCat2H0gxEsHiThHPpcPETSAM8=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-27T12:09:41.703Z",
+        "email": "lilo@mail.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$Kzr4OmGZT4mNu5EEIA0owx$Zk+pJwWCrhisHxkx2ECYhLTDwcwOGkzp11UlOiv3N04=",
+        "last_login": "2025-08-27T12:11:54.688Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-27T12:11:39.258Z",
+        "email": "ne.cosmonavt@yandex.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$9ATiHXkhXDSrbyMZnOFqG7$IeClt6k1Umr7lAEBm0TFvlsdoe+DXQsn3mvtS/2qA4E=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2025-08-28T13:43:10.348Z",
+        "email": "Pet_lil@mail.ru",
+        "avatar": "",
+        "phone_number": null,
+        "country": null,
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

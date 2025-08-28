@@ -1,0 +1,338 @@
+[
+{
+    "model": "mailings.message",
+    "pk": 1,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 2,
+    "fields": {
+        "subject": "<h2>Активные рассылки: {{ active_newsletters }}</h2>",
+        "body": "None<h2>Активные рассылки: {{ active_newsletters }}</h2>"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 3,
+    "fields": {
+        "subject": "python manage.py shell",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 4,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "fail_silently=False,\r\n                )\r\n                SendingAttempt.objects.create(\r\n                    newsletter=newsletter,\r\n                    status='successful',\r\n                    server_response=f'Email sent to {subscriber.email}',\r\n                )\r\n            except Exception as e:\r\n                SendingAttempt.objects.create(\r\n                    newsletter=newsletter,\r\n                    status='failed',\r\n                    server_response=str(e),\r\n                )\r\n\r\n        newsletter.status = 'finished'  # Обновляем статус рассылки\r\n        newsletter.save()\r\n\r\n        messages.success(request, \"Рассылка завершена!\")\r\n        return redirect('newsletter_list')"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 5,
+    "fields": {
+        "subject": "р",
+        "body": "fail_silently=False,\r\n                )\r\n                SendingAttempt.objects.create(\r\n                    newsletter=newsletter,\r\n                    status='successful',\r\n                    server_response=f'Email sent to {subscriber.email}',\r\n                )\r\n            except Exception as e:\r\n                SendingAttempt.objects.create(\r\n                    newsletter=newsletter,\r\n                    status='failed',\r\n                    server_response=str(e),\r\n                )\r\n\r\n        newsletter.status = 'finished'  # Обновляем статус рассылки\r\n        newsletter.save()\r\n\r\n        messages.success(request, \"Рассылка завершена!\")\r\n        return redirect('newsletter_list')"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 6,
+    "fields": {
+        "subject": "м",
+        "body": "Noneм"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 7,
+    "fields": {
+        "subject": "Nonev",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 8,
+    "fields": {
+        "subject": "Nonev",
+        "body": "wwww1111"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 9,
+    "fields": {
+        "subject": "Body",
+        "body": "сообщение"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 10,
+    "fields": {
+        "subject": "тест",
+        "body": "с"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 11,
+    "fields": {
+        "subject": "Nonev",
+        "body": "NonePetlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 12,
+    "fields": {
+        "subject": "тест",
+        "body": "тест"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 13,
+    "fields": {
+        "subject": "тест",
+        "body": "м"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 14,
+    "fields": {
+        "subject": "заголовок",
+        "body": "Noneзаголовок"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 15,
+    "fields": {
+        "subject": "заголовк",
+        "body": "заголовк"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 16,
+    "fields": {
+        "subject": "м",
+        "body": "м"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 17,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "NonePetlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 18,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 19,
+    "fields": {
+        "subject": "Nonev",
+        "body": "Noneм"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 20,
+    "fields": {
+        "subject": "Nonev",
+        "body": "Noneм"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 21,
+    "fields": {
+        "subject": "Nonev",
+        "body": "Noneс"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 22,
+    "fields": {
+        "subject": "None",
+        "body": "None"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 23,
+    "fields": {
+        "subject": "None",
+        "body": "Noneс"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 24,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 25,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 26,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 27,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 28,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 29,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 30,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 31,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 32,
+    "fields": {
+        "subject": "тест",
+        "body": "ссс"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 33,
+    "fields": {
+        "subject": "с",
+        "body": "с"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 34,
+    "fields": {
+        "subject": "Nonev",
+        "body": "Noneс"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 35,
+    "fields": {
+        "subject": "Petlyay@yandex.ru",
+        "body": "Petlyay@yandex.ru"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 36,
+    "fields": {
+        "subject": "тест",
+        "body": "dd"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 37,
+    "fields": {
+        "subject": "NoneNone",
+        "body": "Noned"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 38,
+    "fields": {
+        "subject": "NoneNonev",
+        "body": "Noned"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 39,
+    "fields": {
+        "subject": "NoneNonev",
+        "body": "Noned"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 40,
+    "fields": {
+        "subject": "NoneNonev",
+        "body": "Noned"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 41,
+    "fields": {
+        "subject": "Nonev",
+        "body": "c"
+    }
+},
+{
+    "model": "mailings.message",
+    "pk": 42,
+    "fields": {
+        "subject": "nnnn",
+        "body": "nnn"
+    }
+}
+]

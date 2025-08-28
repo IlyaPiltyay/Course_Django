@@ -1,0 +1,42 @@
+[
+{
+    "model": "mailings.sendingattempt",
+    "pk": 29,
+    "fields": {
+        "attempt_time": "2025-08-28T15:26:18.106Z",
+        "status": "successful",
+        "server_response": "Email sent successfully",
+        "newsletter": 29
+    }
+},
+{
+    "model": "mailings.sendingattempt",
+    "pk": 30,
+    "fields": {
+        "attempt_time": "2025-08-28T15:26:46.368Z",
+        "status": "successful",
+        "server_response": "Email sent successfully",
+        "newsletter": 32
+    }
+},
+{
+    "model": "mailings.sendingattempt",
+    "pk": 31,
+    "fields": {
+        "attempt_time": "2025-08-28T15:26:49.091Z",
+        "status": "successful",
+        "server_response": "Email sent successfully",
+        "newsletter": 33
+    }
+},
+{
+    "model": "mailings.sendingattempt",
+    "pk": 32,
+    "fields": {
+        "attempt_time": "2025-08-28T15:26:51.141Z",
+        "status": "successful",
+        "server_response": "Email sent successfully",
+        "newsletter": 34
+    }
+}
+]
