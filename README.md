@@ -1,2 +1,2 @@
-# Course_Django
-Курсовой проект Django
+# Mailings
+Сервис рассылок
